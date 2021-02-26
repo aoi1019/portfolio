@@ -1,5 +1,6 @@
 <template>
-  <div class="hello">
+  <div class="top-field">
+    <h2 class="top-ttl">Aoi's Portfolio</h2>
   </div>
 </template>
 

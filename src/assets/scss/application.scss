@@ -17,3 +17,25 @@ $sp: 480px;  // スマホ
     @content;
   }
 }
+
+.section {
+  padding: 1rem 1.5rem;
+  width: 100%;
+  overflow: scroll!important;
+  @include pc {
+    height: calc(100vh - 120px);
+  }
+  @include sp {
+    height: calc(100vh - 120px);
+  }
+  .section-ttl {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #35495e;
+  }
+}
+
+body {
+  font-family: AlfaSlabOne-Regular,sans-serif!important;
+}

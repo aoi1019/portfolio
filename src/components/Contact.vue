@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h2 class="contact-ttl">CONTACT</h2>
+  <div class="section">
+    <h2 class="section-ttl">Contact</h2>
   </div>
 </template>

@@ -1,1 +1,58 @@
 @import 'application.scss';
+
+.contact-field {
+  width: 60%;
+  margin: 20px auto 0;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 1.25rem 0.25rem rgba(0, 0, 0, 0.075);
+  line-height: 2;
+  @include sp {
+    width: 100%;
+    font-size: 15px;
+  }
+  .contact-des {
+    text-align: center;
+  }
+  .contact-sns {
+    .sns {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      @include sp {
+        flex-wrap: wrap;
+      }
+      .sns-btn {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px 10px;
+        padding: 10px 15px;
+        box-shadow: 0 0 1.25rem 0.25rem rgba(0, 0, 0, 0.075);
+        @include sp {
+          font-size: 15px;
+        }
+        &:hover {
+          transform: scale(1.1);
+          transition-duration: 1.5s;
+          box-shadow: 0 0 1.25rem 0.25rem rgb(193, 191, 191);
+        }
+      }
+      .twitter-btn {
+        background-color: #1867c0;
+        color: #fff;
+      }
+      .github-btn {
+        background-color: #272727;
+        color: #fff;
+      }
+      .g-mail-btn {
+        background-color: #E34134;
+        color: white;
+      }
+      .qiita-btn {
+        background-color: #52C000;
+        color: white;
+      }
+    }
+  }
+}

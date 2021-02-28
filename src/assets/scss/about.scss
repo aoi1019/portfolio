@@ -1,20 +1,20 @@
 @import 'application.scss';
 
 .about-field {
-  width: 80%;
+  width: 95%;
   display: flex;
-  margin: 30px auto;
+  margin: 20px auto;
   @include sp {
     flex-direction: column;
     width: 100%;
   }
   .article-left {
     display: flex;
-      max-width: 1000px;
-      align-items: center;
-      flex-direction: column;
-      font-size: 20px;
-      line-height: 2;
+    max-width: 1000px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 2;
     .profile {
       border-radius: 10px;
       box-shadow: 0 0 1.25rem 0.25rem rgba(0, 0, 0, 0.075)!important;
@@ -44,7 +44,7 @@
         .profile-ttl {
           color: #35495e;
           font-weight: bold;
-          font-size: 40px;
+          font-size: 30px;
           margin: 20px;
           @include sp {
             font-size: 30px;
@@ -74,15 +74,15 @@
           ._ttl {
             color: #35495e;
             font-weight: bold;
-            font-size: 40px;
-            margin: 20px 20px 20px 10px;
+            font-size: 30px;
+            margin: 10px 20px 20px 10px;
             @include sp {
               font-size: 30px;
             }
           }
           ._main {
             .skill {
-              font-size: 16px;
+              font-size: 13px;
               font-weight: bold;
               display: inline-block;
               padding: 5px 12px;
@@ -102,15 +102,15 @@
           ._ttl {
             color: #35495e;
             font-weight: bold;
-            font-size: 40px;
-            margin: 20px 20px 20px 10px;
+            font-size: 30px;
+            margin: 10px 20px 20px 10px;
             @include sp {
               font-size: 30px;
             }
           }
           ._main {
             .skill {
-              font-size: 16px;
+              font-size: 13px;
               font-weight: bold;
               display: inline-block;
               padding: 5px 12px;
@@ -135,22 +135,24 @@
         ._ttl {
           color: #35495e;
           font-weight: bold;
-          font-size: 40px;
-          margin: 0 20px 0 10px;
+          font-size: 30px;
+          margin: -10px 20px 0 10px;
           @include sp {
             font-size: 30px;
           }
         }
         ._main {
           .type {
+            font-size: 20px;
             font-weight: bold;
-            margin: 10px 0 10px 10px;
+            margin: 30px 0 10px 10px;
             @include sp {
+              margin-top: 10px;
               font-size: 1.2rem;
             }
           }
           .skill {
-            font-size: 16px;
+            font-size: 13px;
             font-weight: bold;
             display: inline-block;
             padding: 5px 12px;
@@ -172,7 +174,7 @@
     height: 10;
     border-radius: 10px;
     box-shadow: 0 0 1.25rem 0.25rem rgba(0, 0, 0, 0.075)!important;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 2;
     @include pc {
       margin-left: 20px;
@@ -184,11 +186,8 @@
       .history-ttl {
         color: #35495e;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         margin: 20px;
-        @include sp {
-          font-size: 30px;
-        }
       }
       .history-clm {
         margin: 20px;
@@ -196,6 +195,7 @@
           @include sp {
             font-size: 1.2rem;
           }
+          font-size: 20px;
           font-weight: bold;
           .marker {
             background: linear-gradient(transparent 70%, orange 70%);

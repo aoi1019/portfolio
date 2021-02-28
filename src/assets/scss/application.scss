@@ -19,23 +19,41 @@ $sp: 480px;  // スマホ
 }
 
 .section {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 0;
   width: 100%;
-  overflow: scroll!important;
+  z-index: 3;
   @include pc {
     height: calc(100vh - 120px);
   }
   @include sp {
     height: calc(100vh - 120px);
+    overflow: scroll;
   }
   .section-ttl {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
+    color: #35495e;
+    // padding-top: 10px;
+  }
+  .sub-ttl {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
     color: #35495e;
   }
 }
 
 body {
   font-family: AlfaSlabOne-Regular,sans-serif!important;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.pc-only {
+  @include sp {
+    display: none;
+  }
 }

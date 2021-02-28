@@ -5,9 +5,9 @@
         <router-link to='/' class="ttl">{{ ttl }}</router-link>
       </div>
       <nav class="my-2 my-md-0 mr-md-3">
+        <router-link to="/" active-class="active-link" exact class="link">TOP</router-link>
         <router-link to="/works" active-class="active-link" exact class="link">WORKS</router-link>
         <router-link to="/about" active-class="active-link" exact class="link">ABOUT</router-link>
-        <a href="https://aoiblog.net" target="blank" class="link">BLOG</a>
         <router-link to="/contact" active-class="active-link" exact class="link">CONTACT</router-link>
       </nav>
     </div>

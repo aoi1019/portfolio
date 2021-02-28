@@ -17,13 +17,15 @@
     .top-ttl {
       padding-top: 30px;
       text-align: center;
+      font-weight: bold;
       color: white;
       @include pc {
         font-size: 100px;
       }
       @include sp {
-        font-size: 40px;
-        z-index: 3!important;
+        font-size: 60px;
+        color: #35495e;
+        margin-top: -20px;
       }
     }
   }
@@ -35,9 +37,6 @@ body,
   height: 100%;
   width: 100%;
   overflow: hidden;
-  @include sp {
-    z-index: 1!important;
-  }
 }
 
 .bgImage {
@@ -54,9 +53,6 @@ body,
   position: absolute;
   width: 100vw;
   height: 100vh;
-  @include sp {
-    z-index: 2!important;
-  }
 }
 
 @for $i from 1 through 18 {

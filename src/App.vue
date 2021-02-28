@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Header ttl="Home" />
-    <router-view></router-view>
+    <Header ttl="Aoi Tech" />
+    <transition name="fade" mode="out-in">
+      <router-view></router-view>
+    </transition> 
   </div>
 </template>
 
@@ -15,3 +17,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-active, .fade-leave-actibe {
+  transition: opacity 0.4s;
+}
+</style>

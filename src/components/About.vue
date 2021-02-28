@@ -12,7 +12,7 @@
               Profile
             </h3>
             <div class="profile-des">
-              あおいです。東京都在住の20歳。大学中退後、都内のスタートアップ企業に就職してECサイトを開発しています。副業でブログも運営しているため、SEOやアフィリエイトの経験も豊富です。0から1を作るクリエイティブなお仕事を得意としています。
+              あおいです。東京都在住の20歳。大学中退後、都内のスタートアップ企業に就職してECサイトの開発に携わっています。副業でブログを運営しているため、SEOやアフィリエイトの知見も豊富です。0から1を作るクリエイティブなお仕事を得意としています。
             </div>
           </div>
         </div>
@@ -44,7 +44,6 @@
                 <span class="skill">#SEO</span>
                 <span class="skill">#Fitness</span>
                 <span class="skill">#Writing</span>
-                <span class="skill">#Movie Edit</span>
               </div>
             </div>
           </div>

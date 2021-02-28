@@ -1,1 +1,48 @@
 @import 'application.scss';
+
+.works-field {
+  width: 95%;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include sp {
+    flex-direction: column;
+  }
+  .column {
+    margin-left: 50px;
+    @include sp {
+      margin-bottom: 100px;
+      margin-left: 0;
+      &:last-child {
+        margin-bottom: 200px
+      }
+    }
+    .column-name {
+      text-align: center;
+      margin: 10px;
+      font-weight: bold;
+      
+    }
+    .column-img {
+      height: 200px;
+      width: 320px;
+      cursor: pointer;
+      box-shadow: 0 0 1.25rem 0.25rem rgba(0, 0, 0, 0.075);
+      @include sp {
+        margin: 0 auto;
+      }
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+        box-shadow: 0 0 1.5rem 0.5rem #999;
+      }
+      ._img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        transition-duration: 0.5s;
+      }
+    }
+  }
+}
